@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "backstage-demo"
+  name: "backstage-resource-group"
   annotations:
     github.com/project-slug: hirveakshata/azure-rg-template # Change the value to your github repo which contains terraform code.
     backstage.io/techdocs-ref: dir:.
@@ -10,4 +10,4 @@ metadata:
 spec:
   type: Infrastructure services
   owner: user:guest
-  lifecycle: production
+  lifecycle: Production
